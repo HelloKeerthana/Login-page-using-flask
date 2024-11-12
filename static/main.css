@@ -1,0 +1,155 @@
+
+body {
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+body img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    padding-left: 75px;
+}
+.container {
+    color: #084712;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    min-width: 4vh;
+    margin: 50px auto;
+    background: rgb(218, 241, 174);
+    padding: 80px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    height: 450px;
+    box-shadow: 20px 25px  rgb(80, 125, 3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+}
+
+.container h1{
+    padding-top: 20px;
+}
+
+.container button:hover{
+    transform: scale(1.1);
+}
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+input[type="text"],input[type="password"]:hover{
+    transform: scale(0.99);
+    border: 1px solid ;
+} 
+input[type="checkbox"] {
+    transform: scale(1.4);
+    margin-top: 30px;
+} 
+.input-group{
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+    align-content: center;
+}
+
+button {
+    font-size: 0.8rem;
+    font-weight: bolder;
+    width: 100px;
+    height: 40px;
+    margin-top: 20px;
+    padding: 15px 30px;
+    background-color: #4CAF50;
+    color: white;
+    border: 0.1px solid;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+.login-details {
+    display: flex;
+    flex-direction:column;
+    align-content: center;
+    justify-content: space-between; 
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.login-details h1 {
+    color: #333;
+}
+
+.login-details p {
+    font-size: 18px;
+    color: #555;
+}
+
+.user-info {
+    background-color: #d1fbde;
+    border: 1px solid #0c4608;
+    border-radius: 5px;
+}
+
+.user-info p {
+    margin: 5px 0;
+}
+
+.back-link {
+    display: inline-block;
+    margin-top: 20px;
+    color: #4CAF50;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.back-link:hover {
+    text-decoration: underline;
+    transform: scale(0.9);
+}
+select {
+    margin-top: 10px;
+    width: 200px;           
+    padding: 5px;          
+    font-size: 14px; 
+    border: 2px solid #ccc; 
+    border-radius: 5px;     
+    color: #908d8d;            
+  }
+  
+  select:hover {
+    border-color: #888;     /* Change border color on hover */
+  }
+  
+  select:focus {
+    border-color: #0056b3;  /* Change border color when focused */
+    outline: none;          /* Remove default focus outline */
+  }
+  select option {
+    padding: 10px;             /* Set padding */
+    font-size: 16px;           /* Set font size */
+    background-color: #fff;    /* Background color of option */
+    color: #333;               /* Text color */
+  }
+  
+  select option:hover {
+    background-color: #e0e0e0; /* Change background on hover */
+  }
+  
+  select option:checked {
+    background-color: #007bff; /* Background color for selected option */
+    color: #fff;               /* Text color for selected option */
+  }
+  

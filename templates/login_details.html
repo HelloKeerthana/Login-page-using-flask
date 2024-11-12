@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block content %}
+   
+    <div class="login-details">
+        <img src="https://i.pinimg.com/736x/1c/c5/35/1cc535901e32f18db87fa5e340a18aff.jpg" 
+        alt="display picture"
+        />
+        <h1>Login Details</h1>
+        <p>Welcome, <strong>{{ username }}</strong>!</p>
+        <p>Your login details are as follows:</p>
+        
+        <div class="user-info">
+            <p><strong>Username:</strong> {{ username }}</p>
+            <p><strong>Gender:</strong> {{ gender }}</p>
+            <p><strong>Status:</strong> Active</p>
+        </div>
+        
+        <a href="{{ url_for('index') }}" class="back-link">Go Back</a>
+    </div>
+{% endblock %}
