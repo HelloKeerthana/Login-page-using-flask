@@ -1,14 +1,5 @@
 # Flask App Project
 
-This is a simple Flask web application that demonstrates how to structure a project with templates and static files.
-
-## Project Structure
-
-The project follows the typical Flask application layout with `app.py` (or `app2.py` in this case), `templates/` for HTML files, and `static/` for CSS/JS files.
-
-Here is the directory structure:
-
-
 app/
 │
 ├── app2.py                     # Flask application code
@@ -21,6 +12,16 @@ app/
 └── static/                      # Static files (CSS, JS, images)
     └── css/
         └── main2.css            # CSS file for styling
+
+
+This is a simple Flask web application that demonstrates how to structure a project with templates and static files.
+
+## Project Structure
+
+The project follows the typical Flask application layout with `app.py` (or `app2.py` in this case), `templates/` for HTML files, and `static/` for CSS/JS files.
+
+Here is the directory structure:
+
 
 
 app.py: Contains the Flask app logic and routes.
